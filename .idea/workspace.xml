@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7da194e3-b43c-4694-9bf1-7c04364a4c0c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mysqlTest.js" afterPath="$PROJECT_DIR$/mysqlFind.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,11 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysqlInsert.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mysqlInsert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysqlInsert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="310">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysqlUpdate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysqlUpdate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysqlDelete.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysqlDelete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -133,6 +152,8 @@
         <option value="$PROJECT_DIR$/mysqlTest.js" />
         <option value="$PROJECT_DIR$/db/connect.js" />
         <option value="$PROJECT_DIR$/mysqlInsert.js" />
+        <option value="$PROJECT_DIR$/mysqlUpdate.js" />
+        <option value="$PROJECT_DIR$/mysqlDelete.js" />
       </list>
     </option>
   </component>
@@ -286,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500011744607</updated>
       <workItem from="1500011745923" duration="1264000" />
-      <workItem from="1500014020049" duration="11563000" />
+      <workItem from="1500014020049" duration="12715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12827000" />
+    <option name="totallyTimeSpent" value="13979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="1" width="1824" height="1080" extended-state="6" />
@@ -449,8 +470,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlInsert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="310">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlUpdate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>

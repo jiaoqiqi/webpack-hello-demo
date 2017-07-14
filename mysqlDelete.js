@@ -1,0 +1,22 @@
+const mysql = require("mysql");
+
+const connection = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "123456",
+    database: "test"
+});
+
+connection.connect();
+
+var delSql = 'delete from user where name = "a"';
+connection.query(delSql,function (err, result) {
+    if(err){
+        console.log('[DELETE ERROR] - ',err.message);
+        return;
+    }
+    console.log('--------------------------DELETE----------------------------');
+    console.log('DELETE affectedRows',result.affectedRows);
+    console.log('-----------------------------------------------------------------\n\n');
+});
+connection.end();

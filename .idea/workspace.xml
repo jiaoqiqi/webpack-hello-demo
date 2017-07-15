@@ -5,6 +5,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7da194e3-b43c-4694-9bf1-7c04364a4c0c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._accepts@1.3.3@accepts/node_modules/mime-types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._accepts@1.3.3@accepts/node_modules/negotiator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._debug@2.6.7@debug/node_modules/ms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/accepts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/array-flatten" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/content-disposition" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/content-type" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/cookie" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/cookie-signature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/depd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/encodeurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/escape-html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/etag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/finalhandler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/fresh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/merge-descriptors" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/methods" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/on-finished" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/parseurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/path-to-regexp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/proxy-addr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/qs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/range-parser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/send" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/serve-static" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/setprototypeof" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/statuses" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/type-is" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/utils-merge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._express@4.15.3@express/node_modules/vary" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/encodeurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/escape-html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/on-finished" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/parseurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/statuses" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._finalhandler@1.0.3@finalhandler/node_modules/unpipe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._http-errors@1.6.1@http-errors/node_modules/depd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._http-errors@1.6.1@http-errors/node_modules/inherits" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._http-errors@1.6.1@http-errors/node_modules/setprototypeof" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._http-errors@1.6.1@http-errors/node_modules/statuses" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._mime-types@2.1.15@mime-types/node_modules/mime-db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._on-finished@2.3.0@on-finished/node_modules/ee-first" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._proxy-addr@1.1.4@proxy-addr/node_modules/forwarded" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._proxy-addr@1.1.4@proxy-addr/node_modules/ipaddr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/depd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/destroy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/encodeurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/escape-html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/etag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/fresh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/http-errors" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/mime" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/ms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/on-finished" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/range-parser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._send@0.15.3@send/node_modules/statuses" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._serve-static@1.12.3@serve-static/node_modules/encodeurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._serve-static@1.12.3@serve-static/node_modules/escape-html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._serve-static@1.12.3@serve-static/node_modules/parseurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._serve-static@1.12.3@serve-static/node_modules/send" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._type-is@1.6.15@type-is/node_modules/media-typer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/._type-is@1.6.15@type-is/node_modules/mime-types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/accepts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/array-flatten" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/content-disposition" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/content-type" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/cookie" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/cookie-signature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/debug" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/depd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/destroy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/ee-first" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/encodeurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/escape-html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/etag" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/express" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/finalhandler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/forwarded" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/fresh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/http-errors" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/inherits" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/ipaddr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/media-typer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/merge-descriptors" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/methods" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/mime" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/mime-db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/mime-types" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/ms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/negotiator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/on-finished" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/parseurl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/path-to-regexp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/proxy-addr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/qs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/range-parser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/send" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/serve-static" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/setprototypeof" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/statuses" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/type-is" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/unpipe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/utils-merge" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/node_modules/vary" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,16 +127,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="mysqlFind.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlFind.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="connection.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/connection.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +137,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
               <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userSql.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/userSql.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -78,6 +185,10 @@
         <option value="$PROJECT_DIR$/mysqlDelete.js" />
         <option value="$PROJECT_DIR$/server/connection.js" />
         <option value="$PROJECT_DIR$/server/server.js" />
+        <option value="$PROJECT_DIR$/tryMysqlCURD/mysqlUpdate.js" />
+        <option value="$PROJECT_DIR$/tryMysqlCURD/mysqlInsert.js" />
+        <option value="$PROJECT_DIR$/tryMysqlCURD/mysqlDelete.js" />
+        <option value="$PROJECT_DIR$/server/userSql.js" />
       </list>
     </option>
   </component>
@@ -97,13 +208,15 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="97" />
     <option name="y" value="1" />
     <option name="width" value="1824" />
     <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -258,12 +371,12 @@
       <updated>1500011744607</updated>
       <workItem from="1500011745923" duration="1264000" />
       <workItem from="1500014020049" duration="14965000" />
-      <workItem from="1500094719749" duration="1646000" />
+      <workItem from="1500094719749" duration="3639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17875000" />
+    <option name="totallyTimeSpent" value="19868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="97" y="1" width="1824" height="1080" extended-state="6" />
@@ -370,27 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/connect.js" />
-    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlInsert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlUpdate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlDelete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -418,8 +510,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlFind.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="279">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlInsert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlUpdate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tryMysqlCURD/mysqlDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -436,6 +552,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/userSql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>

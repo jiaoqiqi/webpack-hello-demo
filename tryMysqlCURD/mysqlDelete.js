@@ -15,8 +15,6 @@ connection.query(delSql,function (err, result) {
         console.log('[DELETE ERROR] - ',err.message);
         return;
     }
-    console.log('--------------------------DELETE----------------------------');
-    console.log('DELETE affectedRows',result.affectedRows);
-    console.log('-----------------------------------------------------------------\n\n');
+    console.log('DELETE success',result.affectedRows);
 });
 connection.end();

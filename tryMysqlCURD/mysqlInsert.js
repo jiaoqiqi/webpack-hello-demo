@@ -18,9 +18,7 @@ connection.query(addSql,addSqlParams,function (err,result) {
         return;
     }
 
-    console.log('--------------------------INSERT----------------------------');
     console.log('INSERT ID:',result);
-    console.log('-----------------------------------------------------------------\n\n');
 });
 
 connection.end();

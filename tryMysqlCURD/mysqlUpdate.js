@@ -17,8 +17,6 @@ connection.query(modSql,modSqlParams,function (err, result) {
         console.log('[UPDATE ERROR] - ',err.message);
         return;
     }
-    console.log('--------------------------UPDATE----------------------------');
-    console.log('UPDATE affectedRows',result.affectedRows);
-    console.log('-----------------------------------------------------------------\n\n');
+    console.log('UPDATE success',result.affectedRows);
 });
 connection.end();

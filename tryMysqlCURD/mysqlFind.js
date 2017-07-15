@@ -21,10 +21,7 @@ connection.query(sql,function (err, result) {
         console.log('[SELECT ERROR] - ',err.message);
         return;
     }
-
-    console.log('--------------------------SELECT----------------------------');
     console.log(result);
-    console.log('------------------------------------------------------------\n\n');
 });
 
 connection.end();

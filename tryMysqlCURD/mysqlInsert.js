@@ -9,8 +9,8 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-const addSql = 'insert user (name,sex,age,tel,mail,note) values(?,?,?,?,?,?)';
-const addSqlParams = ["li","man",13,"1234567","234567@qq.com","fghavi"];
+const addSql = 'insert user (id,name,sex,age,tel,mail,note) values(?,?,?,?,?,?,?)';
+const addSqlParams = [null,"孙","man",13,"1234567","234567@qq.com","fghavi"];
 
 connection.query(addSql,addSqlParams,function (err,result) {
     if(err){

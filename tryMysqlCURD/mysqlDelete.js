@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-var delSql = 'delete from user where name = "a"';
+var delSql = 'delete from user where id = "4"';
 connection.query(delSql,function (err, result) {
     if(err){
         console.log('[DELETE ERROR] - ',err.message);

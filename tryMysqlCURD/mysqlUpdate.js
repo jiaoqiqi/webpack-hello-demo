@@ -9,8 +9,8 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-const modSql = "update user set sex=?,age=?,tel=?,mail=?,note=? where name = ?";
-const modSqlParams = ["woman",32,"345678","ndsajvn@qq.com","adsvfadsv","li"];
+const modSql = "update user set name=?,sex=?,age=?,tel=?,mail=?,note=? where id = ?";
+const modSqlParams = ["及","woman",32,"345678","ndsajvn@qq.com","adsvfadsv",2];
 
 connection.query(modSql,modSqlParams,function (err, result) {
     if(err){

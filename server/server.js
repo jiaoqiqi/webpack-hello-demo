@@ -11,7 +11,8 @@ app.use(express.static(__dirname + '/'));
 const userInsert = require("./userInsert");
 const userUpdate = require("./userUpdate");
 const userSelect = require("./userSelect");
-app.use('/',userInsert,userUpdate,userSelect);
+const userDelete = require("./userDelete");
+app.use('/',userInsert,userUpdate,userSelect,userDelete);
 
 app.listen(3000, () => {
     console.log('server start, listening is 3000');

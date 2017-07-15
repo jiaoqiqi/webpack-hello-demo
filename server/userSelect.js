@@ -10,7 +10,7 @@ router.get('/userSelect', (req, res) => {
         req.body.tel, req.body.mail, req.body.note], function (err, result) {
         if (err) return err;
 
-        res.send('User added to database with ID: ' + result.insertId);
+        res.send('User selected to database');
     });
 });
 

@@ -6,8 +6,7 @@ let db = require('./../connection');
 let userSQL = require('./../userSql');
 
 router.get('/userSelect', (req, res) => {
-    db.query(userSQL.insert, [req.body.id,req.body.name, req.body.sex, req.body.age,
-        req.body.tel, req.body.mail, req.body.note], function (err, result) {
+    db.query(userSQL.queryAll,  function (err, result) {
         if (err) return err;
 
         res.send(result);

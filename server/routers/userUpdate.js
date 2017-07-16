@@ -10,7 +10,7 @@ router.post('/userUpdate', (req, res) => {
         req.body.tel, req.body.mail, req.body.note,req.body.id], function (err, result) {
         if (err) return err;
 
-        res.send('User updated to database with ID: ' + result.insertId);
+        res.send(result);
     });
 });
 

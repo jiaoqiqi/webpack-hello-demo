@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React,{Component} from 'react';
 
 export default class SelectUser extends Component{
@@ -69,3 +70,8 @@ export default class SelectUser extends Component{
     }
 
 }
+=======
+/**
+ * Created by monster on 17-7-16.
+ */
+>>>>>>> 628ecd21eb1a1f320d42211fca92ef21c271bddb

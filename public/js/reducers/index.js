@@ -1,4 +1,5 @@
 import {combineReducers} from 'redux';
 
-export default combineReducers({
-});
+import userSelect from "./userSelect-reducer"
+
+export default combineReducers({userSelect});

@@ -13,9 +13,10 @@ import App from "./app";
 
 import selectUserMiddleware from "../middleWares/userSelectMiddleware"
 import addUserMiddleware from "../middleWares/userAddMiddleware"
+import updateUserMiddleware from "../middleWares/userUpdateMiddleware"
 import IndexRoute from "react-router/es/IndexRoute";
 
-const createStoreWithMiddleware = applyMiddleware(selectUserMiddleware,addUserMiddleware)(createStore);
+const createStoreWithMiddleware = applyMiddleware(selectUserMiddleware,addUserMiddleware,updateUserMiddleware)(createStore);
 const store = createStoreWithMiddleware(reducer);
 
 render(

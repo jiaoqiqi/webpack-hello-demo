@@ -5,7 +5,8 @@ import SelectUser from "../components/userSelect";
 const mapStateToProps = (state)=> {
     return {
         user:state.userSelect.user,
-        addSuccess: state.userSelect.addSuccess
+        addSuccess: state.userSelect.addSuccess,
+        updateSuccess : state.userSelect.updateSuccess
     }
 };
 
@@ -17,7 +18,12 @@ const mapDispatchToProps = (dispatch) => {
 
         OnAddUser : (data) => {
             dispatch({type:"ADD_USER", data})
+        },
+
+        OnUpdateUser : (data) => {
+            dispatch({type:"UPDATE_USER",data})
         }
+
     }
 
 };

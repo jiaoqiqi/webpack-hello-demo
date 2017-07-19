@@ -10,15 +10,27 @@ export default (state = {user: [], addSuccess:""}, action) => {
 
         switch (action.data) {
             case 'success':
-                state.addFlag = true;
+                state.addSuccess = true;
                 break;
             default:
-                state.addFlag = false;
+                state.addSuccess = false;
         }
 
         return Object.assign({}, state);
     }
 
+    if (action.type === 'UPDATE_USER_SUCCESS') {
+
+        switch (action.data) {
+            case 'success':
+                state.updateSuccess = true;
+                break;
+            default:
+                state.updateSuccess = false;
+        }
+
+        return Object.assign({}, state);
+    }
 
     return state;
 }

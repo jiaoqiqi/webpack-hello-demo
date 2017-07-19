@@ -1,6 +1,6 @@
-export default (state = {users: [], addSuccess:""}, action) => {
+export default (state = {user: [], addSuccess:""}, action) => {
     if (action.type === 'SHOW_USERS') {
-        state.users = action.data;
+        state.user = action.data;
         state.addSuccess = '';
 
         return Object.assign({}, state);

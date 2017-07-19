@@ -6,15 +6,14 @@ export default class SelectUser extends Component {
         super(props);
 
         this.state = {
-            id:null,
-            name:null,
-            sex:null,
-            age:null,
-            tel:null,
-            mail:null,
-            note:null
-        }
-
+                id:null,
+                name:null,
+                sex:null,
+                age:null,
+                tel:null,
+                mail:null,
+                note:null
+            }
     }
 
     componentWillMount() {
@@ -60,46 +59,50 @@ export default class SelectUser extends Component {
     }
 
     render() {
-        console.log(typeof (user));
-        // const userList = this.props.user.map( (user)=> {
-        //     return <div key={user.id}>
-        //         <table>
-        //             <tr>
-        //                 <td className="col">{user.name}</td>
-        //                 <td className="col">{user.sex}</td>
-        //                 <td className="col">{user.age}</td>
-        //                 <td className="col">{user.tel}</td>
-        //                 <td className="col">{user.mail}</td>
-        //                 <td className="col">{user.note}</td>
-        //                 <td>
-        //                     <span onClick={this.initState.bind(this, user)}/>
-        //                 </td>
-        //             </tr>
-        //         </table>
-        //
-        //     </div>;
-        // });
+        console.log(this.props.user);
+        const usersList = this.props.user.map((user, i)=> {
+            return <div key={i}>
+                <hr/>
+                <table>
+                    <tbody>
+                    <tr>
+                        <td className="col">{user.id}</td>
+                        <td className="col">{user.name}</td>
+                        <td className="col">{user.age}</td>
+                        <td className="col">{user.sex}</td>
+                        <td className="col">{user.tel}</td>
+                        <td className="col">{user.email}</td>
+                        <td className="col">{user.note}</td>
+
+
+                        <td className="col seat-col">
+                            <span onClick={this.initState.bind(this, user)} />
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        });
 
         return <div>
                 <div>
-                    <button>
-                        addUser
-                    </button>
+                    <button>addUser</button>
                 </div>
 
-                {/*<div>*/}
-                    {/*<table>*/}
-                        {/*<tr>*/}
-                            {/*<td>姓名</td>*/}
-                            {/*<td>性别</td>*/}
-                            {/*<td>年龄</td>*/}
-                            {/*<td>电话</td>*/}
-                            {/*<td>邮箱</td>*/}
-                            {/*<td>备注</td>*/}
-                        {/*</tr>*/}
-                    {/*</table>*/}
-                {/*</div>*/}
-                {/*<div>{userList}</div>*/}
+                    <table>
+                        <tr>
+                            <td>姓名</td>
+                            <td>性别</td>
+                            <td>年龄</td>
+                            <td>电话</td>
+                            <td>邮箱</td>
+                            <td>备注</td>
+                        </tr>
+                    </table>
+
+
+                <div>{usersList}</div>
 
                 <div>
                     <div>
@@ -113,7 +116,8 @@ export default class SelectUser extends Component {
                 </div>
 
                 <div>
-                    <button type="button" className="btn btn-primary" onClick={this.addUser.bind(this)}>
+                    <button type="button" className="btn btn-primary"
+                            onClick={this.addUser.bind(this)}>
                         添加
                     </button>
                 </div>

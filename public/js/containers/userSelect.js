@@ -15,10 +15,9 @@ const mapDispatchToProps = (dispatch) => {
             dispatch({type:"SELECT_USER"})
         },
 
-        OnAddUser : () => {
-            dispatch({type:"ADD_USER"})
+        OnAddUser : (data) => {
+            dispatch({type:"ADD_USER", data})
         }
-
     }
 
 };

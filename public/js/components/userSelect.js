@@ -32,7 +32,7 @@ export default class SelectUser extends Component {
             alert("the info of user can not be empty");
         }
 
-        this.props.OnAddUser(name, sex, age, tel, mail, note);
+        this.props.OnAddUser({name, sex, age, tel, mail, note});
     }
 
     componentWillReceiveProps() {
@@ -59,20 +59,20 @@ export default class SelectUser extends Component {
     }
 
     render() {
-        console.log(this.props.user);
+        // console.log(this.props.user);
         const usersList = this.props.user.map((user, i)=> {
             return <div key={i}>
                 <hr/>
                 <table>
                     <tbody>
                     <tr>
-                        <td className="col">{user.id}</td>
-                        <td className="col">{user.name}</td>
-                        <td className="col">{user.age}</td>
-                        <td className="col">{user.sex}</td>
-                        <td className="col">{user.tel}</td>
-                        <td className="col">{user.email}</td>
-                        <td className="col">{user.note}</td>
+                        <td >{user.id}</td>
+                        <td >{user.name}</td>
+                        <td >{user.age}</td>
+                        <td >{user.sex}</td>
+                        <td >{user.tel}</td>
+                        <td >{user.email}</td>
+                        <td >{user.note}</td>
 
 
                         <td className="col seat-col">
@@ -86,11 +86,8 @@ export default class SelectUser extends Component {
         });
 
         return <div>
-                <div>
-                    <button>addUser</button>
-                </div>
-
                     <table>
+                        <tbody>
                         <tr>
                             <td>姓名</td>
                             <td>性别</td>
@@ -99,6 +96,7 @@ export default class SelectUser extends Component {
                             <td>邮箱</td>
                             <td>备注</td>
                         </tr>
+                        </tbody>
                     </table>
 
 
@@ -117,9 +115,7 @@ export default class SelectUser extends Component {
 
                 <div>
                     <button type="button" className="btn btn-primary"
-                            onClick={this.addUser.bind(this)}>
-                        添加
-                    </button>
+                            onClick={this.addUser.bind(this)}>添加</button>
                 </div>
             </div>
     }

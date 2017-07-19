@@ -12,9 +12,10 @@ import reducer from "../reducers/index";
 import App from "./app";
 
 import selectUserMiddleware from "../middleWares/userSelectMiddleware"
+import addUserMiddleware from "../middleWares/userAddMiddleware"
 import IndexRoute from "react-router/es/IndexRoute";
 
-const createStoreWithMiddleware = applyMiddleware(selectUserMiddleware)(createStore);
+const createStoreWithMiddleware = applyMiddleware(selectUserMiddleware,addUserMiddleware)(createStore);
 const store = createStoreWithMiddleware(reducer);
 
 render(
@@ -24,7 +25,6 @@ render(
             <Route path="/" component={App}>
                 <IndexRoute component={SelectUser}/>
                 <Route path="/select" component={SelectUser}/>
-
             </Route>
         </Router>
     </Provider>,

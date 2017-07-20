@@ -1,13 +1,14 @@
-import request from "superagent";
+import request from 'superagent';
 
 export default store => next => action => {
     if (action.type === 'UPDATE_USER') {
         request.post('/userUpdate')
-            .send(action.data)
+            .send(action.user)
             .end((err, res) => {
-                next({type: "UPDATE_USERS_SUCCESS", data: res.body});
+                next({type: "UPDATE_USER_SUCCESS", data: res.body.tip});
             });
     }
+
     else
         next(action);
 };

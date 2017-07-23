@@ -117,30 +117,7 @@ export default class SelectUser extends Component {
 
     render() {
         const usersList = this.props.user.map((user, i) => {
-            // return <div key={i}>
-            //     <hr/>
-            //     <table >
-            //         <tbody>
-            //         <tr>
-            //             <td className="infoTable">{user.id}</td>
-            //             <td className="infoTable">{user.name}</td>
-            //             <td className="infoTable">{user.age}</td>
-            //             <td className="infoTable">{user.sex}</td>
-            //             <td className="infoTable">{user.tel}</td>
-            //             <td className="infoTable">{user.email}</td>
-            //             <td className="infoTable">{user.note}</td>
-            //             <td>
-            //                 <button>修改</button>
-            //             </td>
-            //
-            //             <td>
-            //                 <span onClick={this.initState.bind(this, user)}/>
-            //             </td>
-            //
-            //         </tr>
-            //         </tbody>
-            //     </table>
-            // </div>
+
             return  <div key={i}>
                 <hr/>
                 <table>
@@ -168,24 +145,6 @@ export default class SelectUser extends Component {
         });
 
         return <div>
-            {/*<table>*/}
-                {/*<tbody>*/}
-                {/*<tr>*/}
-                    {/*<td className="infoTable">姓名</td>*/}
-                    {/*<td className="infoTable">性别</td>*/}
-                    {/*<td className="infoTable">年龄</td>*/}
-                    {/*<td className="infoTable">电话</td>*/}
-                    {/*<td className="infoTable">邮箱</td>*/}
-                    {/*<td className="infoTable">备注</td>*/}
-                    {/*<td className="infoTable">*/}
-                        {/*<button onClick={this.addUser.bind(this)}>*/}
-                            {/*添加</button>*/}
-                    {/*</td>*/}
-                {/*</tr>*/}
-                {/*</tbody>*/}
-            {/*</table>*/}
-
-
 
             <div className="add-div">
                 <button className="btn btn-primary" data-toggle="modal" data-target="#myModal">
@@ -208,23 +167,6 @@ export default class SelectUser extends Component {
 
             <div>{usersList}</div>
 
-
-            {/*<div>*/}
-                {/*<div>*/}
-                    {/*<div>姓名: <input type="text" ref="addName" className="form-control"/></div>*/}
-                    {/*<div>性别: <input type="text" ref="addSex" /></div>*/}
-                    {/*<div>年龄: <input type="text" ref="addAge"/></div>*/}
-                    {/*<div>电话: <input type="text" ref="addTel"/></div>*/}
-                    {/*<div>邮箱: <input type="text" ref="addMail"/></div>*/}
-                    {/*<div>备注: <input type="text" ref="addNote"/></div>*/}
-                {/*</div>*/}
-
-                {/*<div>*/}
-                    {/*<button type="button"*/}
-                            {/*onClick={this.addUser.bind(this)}>确定添加*/}
-                    {/*</button>*/}
-                {/*</div>*/}
-            {/*</div>*/}
 
             <div className="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -260,27 +202,7 @@ export default class SelectUser extends Component {
 
 
 
-            {/*<div>*/}
-                {/*<div>*/}
-                    {/*<div>姓名: <input type="text" value={this.state.name} ref="updateName"*/}
-                                    {/*onChange={this.onChangeName.bind(this)}/></div>*/}
-                    {/*<div>性别: <input type="text" value={this.state.sex} ref="updateSex"*/}
-                                    {/*onChange={this.onChangeSex.bind(this)}/></div>*/}
-                    {/*<div>年龄: <input type="text" value={this.state.age} ref="updateAge"*/}
-                                    {/*onChange={this.onChangeAge.bind(this)}/></div>*/}
-                    {/*<div>电话: <input type="text" value={this.state.tel} ref="updateTel"*/}
-                                    {/*onChange={this.onChangeTel.bind(this)}/></div>*/}
-                    {/*<div>邮箱: <input type="text" value={this.state.mail} ref="updateMail"*/}
-                                    {/*onChange={this.onChangeMail.bind(this)}/></div>*/}
-                    {/*<div>备注: <input type="text" value={this.state.note} ref="updateNote"*/}
-                                    {/*onChange={this.onChangeNote.bind(this)}/></div>*/}
-                {/*</div>*/}
 
-                {/*<div>*/}
-                    {/*<button onClick={this.OnUpdateUser.bind(this)}>确认修改</button>*/}
-                {/*</div>*/}
-
-            {/*</div>*/}
 
             <div className="modal fade" id="myModal1" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
